@@ -1,0 +1,67 @@
+/*
+*  CSS para el sitio www.misitio.com 
+*  Importación de las distintas hojas de estilo
+*  Autor: Pepito Pérez
+*/
+
+/* INDICE 
+
+1.- Elementos Comunes
+2.- Estructura
+3.- Encabezado
+4.- Contenido
+5.- Barra Lateral
+6.- Pie
+7.- Formularios 
+
+NOTA: Importar hojas de estilos:
+@import "maquetacion.css";
+@import "formularios.css";
+@import "colores.css";
+*/
+
+
+/****************************************
+*       1.- ELEMENTOS COMUNES
+*  body, a, h1, h2, h3, h4, h5, img, div
+*****************************************/
+
+body {
+    background-color: #fafafa;
+}
+
+
+ /*****************************************************
+*                    2.- ESTRUCTURA
+* #header, #content, #sidebar1, #sidebar2, #footer
+******************************************************/
+
+
+ /*****************************************************
+*                    3.- ENCABEZADO
+* 
+******************************************************/
+
+
+ /*****************************************************
+*                    4.- CONTENIDO
+* #header, #content, #sidebar1, #sidebar2, #footer
+******************************************************/
+
+
+ /*****************************************************
+*                    5.- BARRA LATERAL
+* 
+******************************************************/
+
+
+ /*****************************************************
+*                    6.- PIE DE PAFINA
+* #header, #content, #sidebar1, #sidebar2, #footer
+******************************************************/
+
+
+ /*****************************************************
+*                    7.- FORMULARIOS
+* 
+******************************************************/
