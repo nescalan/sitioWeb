@@ -1,15 +1,16 @@
 * {
     color: #323232;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
-    font-family: 'Source Sans Pro', sans-serif;
 }
 
 body {
-    background-image: url(images/)
+    /* background-image: url(images/banner_1); */
 }
 
-/* ETIQUETAS DEL HEADER */
+/* INICIO DE LAS ETIQUETAS DEL ---HEADER--- */
 header {
     background-color: white;
     height: 60px;
@@ -40,7 +41,6 @@ header {
     border-color: #353535;
     border-radius: 5px;
     padding: 5px 25px;
-    /* min-width: 132px; */
     text-shadow: 0 0 3px rgba(0,0,0,0.22);
     cursor: pointer;
     line-height: 1.4285;
@@ -50,20 +50,20 @@ header {
  }
 
 .menu a:hover {
-    background-color: #f8f8f8;
+    background-color: #f2f2f2;
 }
+/* FIN DE LAS ETIQUETAS DEL ---HEADER--- */
 
 
 /* ETIQUETAS DEL ---HERO--- */
 .hero-section {
+    background-image: url(../images/banner_1.jpg);
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
-    background-image: url(/images/banner_1.jpg);
-    background-repeat: no-repeat;
 }
 
 .hero-container{
-    /* border: 1px solid red; */
     height: 700px;
     width: 80%;
 }
@@ -85,9 +85,10 @@ header {
     color: #fff;
     font-size: 30px;
 }
+/* FIN DE LAS ETIQUETAS DEL ---HERO--- */
 
 
-/* ETIQUETAS DE LA SECCION PRODUCTOS */
+/* ETIQUETAS DE LA SECCION ---PRODUCTOS--- */
 .product-section {
     display: flex;
     justify-content: center;
@@ -104,27 +105,29 @@ header {
 
 .product-1 {
     /* border: 1px solid red; */
-    text-align: center;
     height: inherit;
+    text-align: center;
     width: 33%;
 }
 
 .product-1-img {
     border-radius: 10px;
+    box-shadow: 8px 8px 6px gray;
     margin-bottom: 10px;
 }
+/* FIN DE LAS ETIQUETAS DEL ---PRODUCTOS--- */
 
 
-/* ETIQUETAS DE LA SECCION ---ARTICULO--- */
+/* ETIQUETAS DE LA SECCION ---ARTICULOS--- */
 .articulo {
     display: flex;
     justify-content: center;
     height: 220px;
+    margin-bottom: 20PX;
 }
 
 .articulo-container {
-    /* background-color: #c9c8c9; */
-    background-color: #f2f2f2;
+    background-color: #e9f3fa;
     display: inherit;
     justify-content: space-evenly;
     padding-top: 20px;
@@ -133,11 +136,55 @@ header {
 
 .articulo-img {
     border-radius: 10px;
-    padding-left: 50px;   
+    box-shadow: 8px 8px 6px gray;
+    /* margin-bottom: 10px; */
+    padding-left: 50px;
     padding-right: 40px;
 }
 
-.articulo-1 {
-    padding-left: 50px;   
-    padding-right: 40px;    
+.articulo-nota {
+    padding-left: 50px;
+    padding-right: 40px;
 }
+
+.articulo-nota ul {
+    list-style-type: none;
+}
+
+.articulo-nota li {
+    background-image: url("../images/arrow-right.png");
+    background-position: 25px 8px;
+    background-repeat: no-repeat;
+    background-size: 8px;
+    padding-left: 35px;
+}
+/* FIN DE LAS ETIQUETAS DEL ---ARTICULOS--- */
+
+/* ETIQUETAS DE LA SECCION ---FOOTER--- */
+.footer-art {
+    background-color: #2a365a;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    height: 220px;
+    margin-bottom: 20PX;
+}
+
+.footer-container {
+    background-image: url("../images/footer.jpg");
+    display: inherit;
+    justify-content: space-between;
+    /* padding-top: 20px; */
+    width: 80%;
+}
+
+.footer-info, p, ul, li, a {
+    color: #fff;
+}
+
+.footer-info h1 {
+    color: #74a4cf;
+}
+
+
+/* FIN DE LAS ETIQUETAS DE ---FOOTER--- */
