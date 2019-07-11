@@ -1,0 +1,143 @@
+* {
+    color: #323232;
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+    background-image: url(images/)
+}
+
+/* ETIQUETAS DEL HEADER */
+header {
+    background-color: white;
+    height: 60px;
+    border-bottom-style: inset;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    height: inherit;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu li a {
+    /* color: #323232; */
+    padding-right: 30px;
+    text-decoration: none;
+}
+
+.button {
+    border: 1px solid #3e76ba;
+    border-color: #353535;
+    border-radius: 5px;
+    padding: 5px 25px;
+    /* min-width: 132px; */
+    text-shadow: 0 0 3px rgba(0,0,0,0.22);
+    cursor: pointer;
+    line-height: 1.4285;
+    z-index: 1;
+    overflow: hidden;
+    transition: 0.28s ease;
+ }
+
+.menu a:hover {
+    background-color: #f8f8f8;
+}
+
+
+/* ETIQUETAS DEL ---HERO--- */
+.hero-section {
+    display: flex;
+    justify-content: center;
+    background-image: url(/images/banner_1.jpg);
+    background-repeat: no-repeat;
+}
+
+.hero-container{
+    /* border: 1px solid red; */
+    height: 700px;
+    width: 80%;
+}
+
+.hero-slogan {
+    border: green;
+    height: 50px;
+    width: 800px;
+    margin-top: 200px;
+}
+
+.hero-slogan h1 {
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.hero-slogan p {
+    color: #fff;
+    font-size: 30px;
+}
+
+
+/* ETIQUETAS DE LA SECCION PRODUCTOS */
+.product-section {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+}
+
+.product-container {
+    /* border: 1px solid red; */
+    display: inherit;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    width: 80%;
+}
+
+.product-1 {
+    /* border: 1px solid red; */
+    text-align: center;
+    height: inherit;
+    width: 33%;
+}
+
+.product-1-img {
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* ETIQUETAS DE LA SECCION ---ARTICULO--- */
+.articulo {
+    display: flex;
+    justify-content: center;
+    height: 220px;
+}
+
+.articulo-container {
+    /* background-color: #c9c8c9; */
+    background-color: #f2f2f2;
+    display: inherit;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    width: 80%;
+}
+
+.articulo-img {
+    border-radius: 10px;
+    padding-left: 50px;   
+    padding-right: 40px;
+}
+
+.articulo-1 {
+    padding-left: 50px;   
+    padding-right: 40px;    
+}
