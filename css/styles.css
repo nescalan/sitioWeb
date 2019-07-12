@@ -130,21 +130,17 @@ header {
     background-color: #e9f3fa;
     display: inherit;
     justify-content: space-evenly;
-    padding-top: 20px;
     width: 80%;
 }
 
 .articulo-img {
     border-radius: 10px;
-    box-shadow: 8px 8px 6px gray;
-    /* margin-bottom: 10px; */
-    padding-left: 50px;
-    padding-right: 40px;
+    /* box-shadow: 8px 8px 6px gray; */
 }
 
 .articulo-nota {
-    padding-left: 50px;
-    padding-right: 40px;
+    padding: 20px 40px 0 50px;
+    width: 80%;
 }
 
 .articulo-nota ul {
@@ -174,16 +170,27 @@ header {
     background-image: url("../images/footer.jpg");
     display: inherit;
     justify-content: space-between;
-    /* padding-top: 20px; */
     width: 80%;
-}
-
-.footer-info, p, ul, li, a {
-    color: #fff;
 }
 
 .footer-info h1 {
     color: #74a4cf;
+}
+
+.footer-info p {
+    color: #fff;
+}
+
+.footer-info span {
+    color: #fff;
+}
+
+.footer-info ul {
+    list-style: none;
+}
+
+.footer-info li {
+    color: #fff;
 }
 
 
