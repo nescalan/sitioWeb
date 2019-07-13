@@ -31,7 +31,6 @@ header {
 }
 
 .menu li a {
-    /* color: #323232; */
     padding-right: 30px;
     text-decoration: none;
 }
@@ -92,19 +91,17 @@ header {
 .product-section {
     display: flex;
     justify-content: center;
-    height: 400px;
+    height: 440px;
 }
 
 .product-container {
-    /* border: 1px solid red; */
     display: inherit;
     justify-content: space-evenly;
-    padding-top: 40px;
-    width: 80%;
+    padding: 40px;
+    width: 70%;
 }
 
 .product-1 {
-    /* border: 1px solid red; */
     height: inherit;
     text-align: center;
     width: 33%;
@@ -123,23 +120,24 @@ header {
     display: flex;
     justify-content: center;
     height: 220px;
-    margin-bottom: 20PX;
+    margin-bottom: 40PX;
 }
 
 .articulo-container {
+    align-items: center;
     background-color: #e9f3fa;
     display: inherit;
     justify-content: space-evenly;
-    width: 80%;
+    width: 70%;
 }
 
 .articulo-img {
     border-radius: 10px;
-    /* box-shadow: 8px 8px 6px gray; */
+    box-shadow: 8px 8px 6px gray;
 }
 
 .articulo-nota {
-    padding: 20px 40px 0 50px;
+    padding: 0px 40px 0 50px;
     width: 80%;
 }
 
@@ -167,10 +165,9 @@ header {
 }
 
 .footer-container {
-    background-image: url("../images/footer.jpg");
     display: inherit;
     justify-content: space-between;
-    width: 80%;
+    width: 70%;
 }
 
 .footer-info h1 {
