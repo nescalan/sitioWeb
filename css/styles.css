@@ -90,26 +90,29 @@ header {
 /* ETIQUETAS DE LA SECCION ---PRODUCTOS--- */
 .product-section {
     display: flex;
+    height: 400px;
     justify-content: center;
-    height: 440px;
 }
 
 .product-container {
-    display: inherit;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
-    padding: 40px;
-    width: 70%;
+    width: 70%;   
 }
 
 .product-1 {
+    flex-shrink: 0;
     height: inherit;
+    padding-top: 20px;
     text-align: center;
-    width: 33%;
+    width: 425px;
 }
 
 .product-1-img {
     border-radius: 10px;
     box-shadow: 8px 8px 6px gray;
+    flex-shrink: 0;
     margin-bottom: 10px;
 }
 /* FIN DE LAS ETIQUETAS DEL ---PRODUCTOS--- */
@@ -117,16 +120,20 @@ header {
 
 /* ETIQUETAS DE LA SECCION ---ARTICULOS--- */
 .articulo {
+    border: 1px solid red;
     display: flex;
-    justify-content: center;
+    flex-shrink: 0; /* obliga al elemento a ocupar el tamano creado */
     height: 220px;
+    justify-content: center;
     margin-bottom: 40PX;
 }
 
 .articulo-container {
     align-items: center;
+    border: 1px solid blue;
     background-color: #e9f3fa;
     display: inherit;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     width: 70%;
 }
@@ -134,11 +141,14 @@ header {
 .articulo-img {
     border-radius: 10px;
     box-shadow: 8px 8px 6px gray;
+    flex-shrink: 0; /* obliga al elemento a ocupar el tamano creado */
+    object-fit: cover; /* permite ajustar imagen al tamano creado */
 }
 
 .articulo-nota {
     padding: 0px 40px 0 50px;
-    width: 80%;
+    /* width: 80%; */
+    width: 700px;
 }
 
 .articulo-nota ul {
@@ -174,20 +184,12 @@ header {
     color: #74a4cf;
 }
 
-.footer-info p {
-    color: #fff;
-}
-
-.footer-info span {
-    color: #fff;
-}
-
-.footer-info ul {
-    list-style: none;
-}
-
+.footer-info p, 
+.footer-info span,
+.footer-info ul,
 .footer-info li {
     color: #fff;
+    list-style: none;
 }
 
 
