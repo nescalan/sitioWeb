@@ -1,3 +1,14 @@
+/* .contenedor {
+    border: 1px solid red;
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+} */
+
+
 * {
     color: #323232;
     font-family: 'Source Sans Pro', sans-serif;
@@ -15,6 +26,7 @@ header {
     background-color: white;
     height: 60px;
     border-bottom-style: inset;
+    display: flex;
 }
 
 .container {
@@ -58,6 +70,7 @@ header {
 .hero-section {
     background-image: url(../images/banner_1.jpg);
     background-repeat: no-repeat;
+    background-attachment: fixed;
     display: flex;
     justify-content: center;
 }
@@ -192,5 +205,39 @@ header {
     list-style: none;
 }
 
-
 /* FIN DE LAS ETIQUETAS DE ---FOOTER--- */
+
+
+/* ETIQUETAS DE LA PAGINA NOSOTROS */
+/* ETIQUETAS DEL ---NOSOTROS-HERO--- */
+.nosotros-section {
+    background-image: url(../images/banner_nosotros.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+}
+
+.nosotros-container{
+    height: 700px;
+    width: 70%;
+}
+
+.nosotros-slogan {
+    border: green;
+    height: 50px;
+    width: 800px;
+    margin-top: 200px;
+}
+
+.nosotros-slogan h1 {
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.nosotros-slogan p {
+    color: #fff;
+    font-size: 30px;
+}
+/* FIN DE LAS ETIQUETAS DEL ---NOSOTROS-HERO--- */
