@@ -133,7 +133,6 @@ header {
 
 /* ETIQUETAS DE LA SECCION ---ARTICULOS--- */
 .articulo {
-    border: 1px solid red;
     display: flex;
     flex-shrink: 0; /* obliga al elemento a ocupar el tamano creado */
     height: 220px;
@@ -143,7 +142,6 @@ header {
 
 .articulo-container {
     align-items: center;
-    border: 1px solid blue;
     background-color: #e9f3fa;
     display: inherit;
     flex-wrap: wrap;
@@ -208,18 +206,19 @@ header {
 /* FIN DE LAS ETIQUETAS DE ---FOOTER--- */
 
 
-/* ETIQUETAS DE LA PAGINA NOSOTROS */
+/************ ETIQUETAS DE LA PAGINA NOSOTROS ************/
 /* ETIQUETAS DEL ---NOSOTROS-HERO--- */
 .nosotros-section {
+    /* background-attachment: fixed; */
     background-image: url(../images/banner_nosotros.jpg);
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-size: 100%;
     display: flex;
     justify-content: center;
 }
 
 .nosotros-container{
-    height: 700px;
+    height: 400px;
     width: 70%;
 }
 
@@ -227,7 +226,7 @@ header {
     border: green;
     height: 50px;
     width: 800px;
-    margin-top: 200px;
+    margin-top: 15px;
 }
 
 .nosotros-slogan h1 {
@@ -239,5 +238,37 @@ header {
 .nosotros-slogan p {
     color: #fff;
     font-size: 30px;
+    text-transform: uppercase;
 }
 /* FIN DE LAS ETIQUETAS DEL ---NOSOTROS-HERO--- */
+
+/* ETIQUETAS DE LA SECCION ---NOSOTROS-HISTORIA--- */
+.historia-section {
+    display: flex;
+    height: 400px;
+    justify-content: center;
+}
+
+.historia-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 70%;   
+}
+
+.historia-1 {
+    flex-shrink: 0;
+    font-size: 20px;
+    height: inherit;
+    padding-top: 20px;
+    text-align: center;
+    width: 70%;
+}
+
+/* .historia-1-img {
+    border-radius: 10px;
+    box-shadow: 8px 8px 6px gray;
+    flex-shrink: 0;
+    margin-bottom: 10px;
+} */
+/* FIN DE LAS ETIQUETAS DEL ---NOSOTROS-HISTORIA--- */
