@@ -329,7 +329,6 @@ nav ul li div ul li a:hover {
 /* ETIQUETAS SECCION NOSOTROS-DESCRIPCION */
 .nosotros-descripcion {
     align-items: center;
-    border: 1px solid red;
     border-bottom-style: inset;
     display: flex;
     align-content: flex-start;
@@ -338,7 +337,6 @@ nav ul li div ul li a:hover {
 }
 
 .nosotros-descripcion-imagen {
-    border: 3px solid green;
     width: 40%;
     height: 400px;
     position: relative;
@@ -346,18 +344,7 @@ nav ul li div ul li a:hover {
 }
 
 .nosotros-descripcion-detalle{
-    border: 1px solid blueviolet;
     padding: 40px;
     width: 40%;
 }
-
 /* FIN DE LAS ETIQUETAS NOSOTROS-DESCRIPCION */
-
-.flexbox {<div class="flexbox">
-    <div class="box1"></div>
-    <div class="box2"></div>
-    <div class="box3"></div>
-</div>
-    display: flex;
-
-}
