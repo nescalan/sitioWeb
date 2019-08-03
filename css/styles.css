@@ -194,7 +194,7 @@ nav ul li div ul li a:hover {
     flex-shrink: 0; /* obliga al elemento a ocupar el tamano creado */
     height: 220px;
     justify-content: center;
-    margin-bottom: 40PX;
+    margin: 40px 0;
 }
 
 .articulo-container {
@@ -235,7 +235,6 @@ nav ul li div ul li a:hover {
 /* ETIQUETAS DE LA SECCION ---FOOTER--- */
 .footer-art {
     background-color: #2a365a;
-    border: 1px solid red;
     display: flex;
     justify-content: center;
     height: 220px;
@@ -301,19 +300,22 @@ nav ul li div ul li a:hover {
 
 /* ETIQUETAS DE LA SECCION ---NOSOTROS-HISTORIA--- */
 .historia-section {
+    border: 1px solid red;
     display: flex;
-    height: 400px;
+    height: 300px;
     justify-content: center;
 }
 
 .historia-container {
+    border: 1px solid green;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     width: 70%;
 }
 
-.historia-1 {
+.historia-descripcion {
+    border: 1px solid blue;
     flex-shrink: 0;
     font-size: 20px;
     height: inherit;
@@ -322,34 +324,40 @@ nav ul li div ul li a:hover {
     width: 70%;
 }
 
-/* .historia-1-img {
-    border-radius: 10px;
-    box-shadow: 8px 8px 6px gray;
-    flex-shrink: 0;
-    margin-bottom: 10px;
-} */
 /* FIN DE LAS ETIQUETAS DEL ---NOSOTROS-HISTORIA--- */
 
 /* ETIQUETAS SECCION NOSOTROS-DESCRIPCION */
-figure
 .nosotros-descripcion {
     align-items: center;
-    /* border-bottom-style: inset; */
+    border: 1px solid red;
+    border-bottom-style: inset;
     display: flex;
-    height: 60px;
-    justify-content: space-between;
+    align-content: flex-start;
+    height: 400px;
     margin: 0 auto;
-    width: 70%;
 }
 
 .nosotros-descripcion-imagen {
-    width: 100%;
+    border: 3px solid green;
+    width: 40%;
     height: 400px;
     position: relative;
     overflow: hidden;
-
-    /* align-items: center;
-    position: relative;
-    width: 400px; */
 }
+
+.nosotros-descripcion-detalle{
+    border: 1px solid blueviolet;
+    padding: 40px;
+    width: 40%;
+}
+
 /* FIN DE LAS ETIQUETAS NOSOTROS-DESCRIPCION */
+
+.flexbox {<div class="flexbox">
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+</div>
+    display: flex;
+
+}
