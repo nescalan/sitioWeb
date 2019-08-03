@@ -279,7 +279,6 @@ nav ul li div ul li a:hover {
 }
 
 .nosotros-slogan {
-    border: green;
     height: 50px;
     width: 800px;
     margin-top: 15px;
@@ -300,14 +299,12 @@ nav ul li div ul li a:hover {
 
 /* ETIQUETAS DE LA SECCION ---NOSOTROS-HISTORIA--- */
 .historia-section {
-    border: 1px solid red;
     display: flex;
     height: 300px;
     justify-content: center;
 }
 
 .historia-container {
-    border: 1px solid green;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -315,7 +312,6 @@ nav ul li div ul li a:hover {
 }
 
 .historia-descripcion {
-    border: 1px solid blue;
     flex-shrink: 0;
     font-size: 20px;
     height: inherit;
@@ -332,7 +328,7 @@ nav ul li div ul li a:hover {
     border-bottom-style: inset;
     display: flex;
     align-content: flex-start;
-    height: 400px;
+    height: 500px;
     margin: 0 auto;
 }
 
