@@ -17,8 +17,9 @@ header {
     display: flex;
     height: 60px;
     justify-content: space-between;
-    margin: 0 auto;
+    margin: auto;
     width: 70%;
+    /* max-width: 1000px; */
 }
 
 nav {
@@ -325,7 +326,6 @@ nav ul li div ul li a:hover {
 /* ETIQUETAS SECCION NOSOTROS-DESCRIPCION */
 .nosotros-descripcion {
     align-items: center;
-    border-bottom-style: inset;
     display: flex;
     align-content: flex-start;
     height: 500px;
@@ -339,8 +339,18 @@ nav ul li div ul li a:hover {
     overflow: hidden;
 }
 
-.nosotros-descripcion-detalle{
-    padding: 40px;
-    width: 40%;
+.nosotros-descripcion-detalle-1{
+    background-color: #f7f8f8;
+    height: 300px;
+    padding: 100px 300px 0 50px;
+    width: 45%;
 }
+
+.nosotros-descripcion-detalle-2{
+    background-color: #f7f8f8;
+    height: 300px;
+    padding: 100px 50px 0 100px;
+    width: 45%;
+}
+
 /* FIN DE LAS ETIQUETAS NOSOTROS-DESCRIPCION */
