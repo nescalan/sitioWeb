@@ -134,7 +134,7 @@ nav ul li div ul li a:hover {
 }
 
 .hero-container{
-    height: 700px;
+    height: 650px;
     width: 70%;
 }
 
@@ -161,7 +161,7 @@ nav ul li div ul li a:hover {
 /* ETIQUETAS DE LA SECCION ---PRODUCTOS--- */
 .product-section {
     display: flex;
-    height: 400px;
+    height: 350px;
     justify-content: center;
 }
 
@@ -170,6 +170,7 @@ nav ul li div ul li a:hover {
     flex-wrap: wrap;
     justify-content: space-evenly;
     width: 70%;
+    max-width: 1200px;
 }
 
 .product-1 {
@@ -177,7 +178,7 @@ nav ul li div ul li a:hover {
     height: inherit;
     padding-top: 20px;
     text-align: center;
-    width: 425px;
+    width: 350px;
 }
 
 .product-1-img {
@@ -185,6 +186,7 @@ nav ul li div ul li a:hover {
     box-shadow: 8px 8px 6px gray;
     flex-shrink: 0;
     margin-bottom: 10px;
+    width: 300px;
 }
 /* FIN DE LAS ETIQUETAS DEL ---PRODUCTOS--- */
 
@@ -204,7 +206,7 @@ nav ul li div ul li a:hover {
     display: inherit;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    width: 70%;
+    width: 75%;
 }
 
 .articulo-img {
