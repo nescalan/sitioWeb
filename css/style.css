@@ -13,13 +13,12 @@
 /* ***************** INICIO MENU HEADER ***************** */
 header {
     align-items: center;
-    /* border-bottom-style: inset; */
+    border-bottom-style: inset;
     display: flex;
     height: 60px;
     justify-content: space-between;
     margin: auto;
     width: 70%;
-    /* max-width: 1000px; */
 }
 
 nav {
@@ -322,7 +321,6 @@ nav ul li div ul li a:hover {
     text-align: center;
     width: 70%;
 }
-
 /* FIN DE LAS ETIQUETAS DEL ---NOSOTROS-HISTORIA--- */
 
 /* ETIQUETAS SECCION NOSOTROS-DESCRIPCION */
@@ -354,5 +352,60 @@ nav ul li div ul li a:hover {
     padding: 100px 50px 0 100px;
     width: 45%;
 }
-
 /* FIN DE LAS ETIQUETAS NOSOTROS-DESCRIPCION */
+
+/* ETIQUETAS DE LA SECCION ---PRODUCTOS--- */
+.products-section {
+    display: flex;
+    height: 300px;
+    justify-content: center;
+}
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 70%;
+}
+
+.products-descripcion {
+    flex-shrink: 0;
+    font-size: 20px;
+    height: inherit;
+    padding-top: 20px;
+    text-align: center;
+    width: 70%;
+}
+
+.products-descripcion h1 {
+    font-size: 2em;
+    font-weight: 200;
+}
+
+.products-descripcion h2 {
+    color: #a1b8d4;
+}
+
+.products-descripcion p {
+    padding-top: 30px;
+}
+/* FIN DE LAS ETIQUETAS DEL ---PRODUCTOS--- */
+
+/* ETIQUETAS DE LA SECCION ---CATEGORIAS--- */
+.categories {
+    border: 3px solid red;    
+    display: flex;
+    height: 300px;
+    justify-content: center;
+}
+
+.categories-container {
+    border: 3px solid blue;
+    background-color: #f7f8f8;
+}
+
+.categories-img-cat-1 {
+    border: 3px solid green;
+    width: 150px;
+}
+/* FIN DE LAS ETIQUETAS DEL ---CATEGORIAS--- */
