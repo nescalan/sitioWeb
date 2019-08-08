@@ -392,7 +392,7 @@ nav ul li div ul li a:hover {
 /* FIN DE LAS ETIQUETAS DEL ---PRODUCTOS--- */
 
 /* ETIQUETAS DE LA SECCION ---CATEGORIAS--- */
-.categories {
+/* .categories {
     border: 3px solid red;    
     display: flex;
     height: 300px;
@@ -407,5 +407,86 @@ nav ul li div ul li a:hover {
 .categories-img-cat-1 {
     border: 3px solid green;
     width: 150px;
-}
+} */
 /* FIN DE LAS ETIQUETAS DEL ---CATEGORIAS--- */
+
+.container {
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.container .cards {
+    border: 1px solid green;
+    position: relative;
+    width: 300px;
+    height: 400px;
+    /* background:black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .cards:before {
+    border: 1px solid blue;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: rgba(255,255,255,0.1)
+    z-index: 20;
+    pointer-events: none;
+}
+
+.container .cards .imgBx {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container .cards h2 {
+    margin: 10px 0 0;
+    padding: 0;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.img-categories {
+    width: 200px;
+    height: 200px;
+}
+
+.container .cards .overlay {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background: #a1b8d4;
+    box-shadow: 0 2px 5px rgba(0,0,0,.2);
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.container .cards .overlay:hover {
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: none;
+    opacity: 0.5;
+    border-radius: 0;
+}
