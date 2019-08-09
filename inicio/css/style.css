@@ -125,7 +125,7 @@ nav ul li div ul li a:hover {
 
 /* ***************** ETIQUETAS DEL HERO ***************** */
 .hero-section {
-    background-image: url(../images/banner_1.jpg);
+    background-image: url(../img/banner_1.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     display: flex;
@@ -157,37 +157,55 @@ nav ul li div ul li a:hover {
 /* FIN DE LAS ETIQUETAS DEL ---HERO--- */
 
 
-/* ETIQUETAS DE LA SECCION ---PRODUCTOS--- */
-.product-section {
-    display: flex;
-    height: 350px;
-    justify-content: center;
-}
-
-.product-container {
+/* ETIQUETAS DE LA SECCION ---CATEGORIAS--- */
+.container{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    width: 70%;
-    max-width: 1200px;
+    justify-content: center;
+    margin: auto;
 }
 
-.product-1 {
-    flex-shrink: 0;
-    height: inherit;
-    padding-top: 20px;
+.container .card{
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
     text-align: center;
-    width: 350px;
+    transition: all 0.25s;
 }
 
-.product-1-img {
-    border-radius: 10px;
-    box-shadow: 8px 8px 6px gray;
-    flex-shrink: 0;
-    margin-bottom: 10px;
-    width: 300px;
+.container .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
-/* FIN DE LAS ETIQUETAS DEL ---PRODUCTOS--- */
+
+.container .card img{
+    width: 330px;
+    height: 220px;
+}
+
+
+.container .card h4{
+    font-weight: 600;
+}
+
+.container .card p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.container .card a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #3498db;
+}
+/* FIN DE LAS ETIQUETAS DEL ---CATEGORIAS--- */
 
 
 /* ETIQUETAS DE LA SECCION ---ARTICULOS--- */
@@ -212,13 +230,12 @@ nav ul li div ul li a:hover {
     border-radius: 10px;
     box-shadow: 8px 8px 6px gray;
     flex-shrink: 0; /* obliga al elemento a ocupar el tamano creado */
-    object-fit: cover; /* permite ajustar imagen al tamano creado */
+    width: 350px;
 }
 
 .articulo-nota {
-    padding: 0px 40px 0 50px;
-    /* width: 80%; */
-    width: 700px;
+    /* padding: 0px 40px 0 0px; */
+    width: 950px;
 }
 
 .articulo-nota ul {
@@ -226,7 +243,7 @@ nav ul li div ul li a:hover {
 }
 
 .articulo-nota li {
-    background-image: url("../images/arrow-right.png");
+    background-image: url("../img/arrow-right.png");
     background-position: 25px 8px;
     background-repeat: no-repeat;
     background-size: 8px;
@@ -268,7 +285,7 @@ nav ul li div ul li a:hover {
 /* ETIQUETAS DEL ---NOSOTROS-HERO--- */
 .nosotros-section {
     /* background-attachment: fixed; */
-    background-image: url(../images/banner_nosotros.jpg);
+    background-image: url(/nosotros/img/banner_nosotros.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     display: flex;
@@ -392,101 +409,65 @@ nav ul li div ul li a:hover {
 /* FIN DE LAS ETIQUETAS DEL ---PRODUCTOS--- */
 
 /* ETIQUETAS DE LA SECCION ---CATEGORIAS--- */
-/* .categories {
-    border: 3px solid red;    
+font-family: 'Open Sans', sans-serif;
+}
+
+.title{
+    text-align: center;
+    font-size: 40px;
+    color: #6a6a6a;
+    margin-top: 100px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
     display: flex;
-    height: 300px;
+    flex-wrap: wrap;
     justify-content: center;
+    margin: auto;
 }
 
-.categories-container {
-    border: 3px solid blue;
-    background-color: #f7f8f8;
+.container .card{
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
 }
 
-.categories-img-cat-1 {
-    border: 3px solid green;
-    width: 150px;
-} */
+.container .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container .card img{
+    width: 330px;
+    height: 220px;
+}
+
+
+.container .card h4{
+    font-weight: 600;
+}
+
+.container .card p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.container .card a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #3498db;
+}
 /* FIN DE LAS ETIQUETAS DEL ---CATEGORIAS--- */
 
-.container {
-    border: 1px solid red;
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    margin: 0 auto;
-    width: 100%;
-}
-
-.container .cards {
-    border: 1px solid green;
-    position: relative;
-    width: 300px;
-    height: 400px;
-    /* background:black; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/* .container .cards:before {
-    border: 1px solid blue;
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50%;
-    height: 100%;
-    background: rgba(255,255,255,0.1)
-    z-index: 20;
-    pointer-events: none;
-} */
-
-.container .cards .imgBx {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.container .cards h2 {
-    margin: 10px 0 0;
-    padding: 0;
-    font-weight: 700;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
-
-.img-categories {
-    width: 200px;
-    height: 200px;
-}
-
-.container .cards .overlay {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    width: 50px;
-    height: 50px;
-    background: #a1b8d4;
-    box-shadow: 0 2px 5px rgba(0,0,0,.2);
-    cursor: pointer;
-    border-radius: 50%;
-    transition: 0.5s;
-}
-
-.container .cards .overlay:hover {
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    box-shadow: none;
-    opacity: 0.5;
-    border-radius: 0;
-}
