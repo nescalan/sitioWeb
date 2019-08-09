@@ -416,7 +416,7 @@ nav ul li div ul li a:hover {
     justify-content: space-between;
     position: relative;
     margin: 0 auto;
-    width: 1000px;
+    width: 100%;
 }
 
 .container .cards {
@@ -430,7 +430,7 @@ nav ul li div ul li a:hover {
     align-items: center;
 }
 
-.container .cards:before {
+/* .container .cards:before {
     border: 1px solid blue;
     content: '';
     position: absolute;
@@ -441,7 +441,7 @@ nav ul li div ul li a:hover {
     background: rgba(255,255,255,0.1)
     z-index: 20;
     pointer-events: none;
-}
+} */
 
 .container .cards .imgBx {
     position: absolute;
