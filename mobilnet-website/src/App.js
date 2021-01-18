@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 // import Styles and Images
 import "./App.css";
 
-// import components
+// import Components
 import Navbar from "./components/Navbar";
 import Inicio from "./pages/Inicio";
 import Nosotros from "./pages/Nosotros";
