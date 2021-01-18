@@ -10,16 +10,16 @@ const Navbar = () => {
     <header>
       <div class="logo">
         <figure>
-          <a title="Mobilnet" href="/index.html">
+          <Link title="Mobilnet" to="/">
             <img src={Logo} alt="logoMobilnet" />
-          </a>
+          </Link>
         </figure>
       </div>
 
       <nav>
         <ul>
           <li>
-            <Link to="/nosotros/about-us.html">Nosotros</Link>
+            <Link to="/">Nosotros</Link>
           </li>
           <li>
             <Link to="/productos/productos.html">Productos</Link>
