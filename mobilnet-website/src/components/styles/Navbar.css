@@ -1,0 +1,109 @@
+nav {
+  align-items: center;
+  position: relative;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+nav > ul > li {
+  float: left;
+}
+
+nav ul li a {
+  text-decoration: none;
+  display: block;
+  padding: 10px 20px;
+}
+
+nav ul li a:hover {
+  background: #f2f2f2;
+}
+
+nav > ul > li:hover div {
+  display: table;
+}
+
+.button {
+  border: 1px solid #3e76ba;
+  border-color: #353535;
+  border-radius: 5px;
+  padding: 5px 25px;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+  line-height: 1.4285;
+  margin-top: 5px;
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.28s ease;
+}
+/* ********************** FINAL MENU ********************** */
+
+/* ********************** INICIO SUBMENU ********************** */
+nav ul li div {
+  width: 1000px;
+  position: absolute;
+  /* left:0; */
+  right: 0;
+  background: #ccc;
+  box-sizing: border-box;
+  display: none;
+}
+
+nav ul li div ul {
+  width: 20%;
+  display: table-cell;
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+  box-sizing: border-box;
+}
+
+nav ul li div ul:last-child {
+  border: none;
+}
+
+nav ul li div ul .titulo {
+  /* background:#5a009e; */
+  background: #5e4ac5;
+  color: #fff;
+  font-weight: bold;
+}
+
+nav ul li div ul .titulo a {
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.titulo.azul {
+  background: #3498db;
+}
+.titulo.gris {
+  background: #c0c0c0;
+}
+.titulo.verde {
+  background: #27ae60;
+}
+.titulo.naranja {
+  background: #e67e22;
+}
+.titulo.rojo {
+  background: #e60031;
+  color: #000;
+}
+
+nav ul li div ul .titulo a:hover {
+  background: none;
+}
+
+nav ul li div ul li a {
+  color: #000;
+}
+
+nav ul li div ul li a:hover {
+  /* color:#fff; */
+  color: #323232;
+}
+/* ***************** FINAL SUBMENU HEADER ***************** */

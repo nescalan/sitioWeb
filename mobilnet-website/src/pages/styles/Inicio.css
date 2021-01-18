@@ -1,0 +1,32 @@
+/* ***************** ETIQUETAS DEL HERO ***************** */
+.hero-section {
+  background-image: url(../../img/banner_1.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-container {
+  height: 650px;
+  width: 70%;
+}
+
+.hero-slogan {
+  border: green;
+  height: 50px;
+  width: 800px;
+  margin-top: 200px;
+}
+
+.hero-slogan h1 {
+  color: #fff;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.hero-slogan p {
+  color: #fff;
+  font-size: 30px;
+}
+/* FIN DE LAS ETIQUETAS DEL ---HERO--- */
