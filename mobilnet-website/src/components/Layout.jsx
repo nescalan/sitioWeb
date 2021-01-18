@@ -3,10 +3,11 @@ import React from "react";
 // import Components
 import Navbar from "./Navbar";
 
-function Layout() {
+function Layout(props) {
   return (
     <React.Fragment>
       <Navbar />
+      {props.children}
     </React.Fragment>
   );
 }
